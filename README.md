@@ -24,3 +24,15 @@ ambiente virtual VENV e que implementa um pequeno algoritmo que executa uma fun�
 * Executar, caso esteja no Windows, ```venv\Scripts\activate``` para iniciar o ambiente. Caso Linux ou MacOS, ```source venv/bin/activate```.
 * Para sair do ambiente virtual ```deactivate```.
 
+## COMANDOS IMPORTANTES
+* ```python -m venv venv``` - Cria um ambiente virtual chamado venv. Observação: o primeiro venv é o comando, o segundo, o nome do diretório.
+* No Windows, ```venv\Scripts\activate``` e no Linux, ```source venv/bin/activate``` - Inicializa o ambiente.
+* ```deactivate``` - Encerra o ambiente.
+* ```pip freeze > requirements.txt``` - Gera o arquivo que contém dependências. Esse mesmo comando atualiza o arquivo.
+* ```pip list``` - Lista as dependências do projeto.
+* ```pip show``` - Inserindo o nome da dependência após o comando, lista informações da dependência.
+* ```pip install -r requirements.txt``` - Instala dependências que estão no arquivo 'requirements.txt'.
+* ```pip install``` - Inserindo o nome da dependência após o comando, instala dependências.
+* ```pip uninstall``` - Inserindo o nome da dependência após o comando, desinstala dependências.
+
+
