@@ -1,4 +1,4 @@
-# PROJETO PYTHON 
+# PROJETO PYTHON - VENV/SCHEDULE
 
 Este pequeno projeto tem o intuito de demonstrar a utilização do ambiente virtual
 VENV e o módulo SCHEDULE.
