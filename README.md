@@ -13,8 +13,14 @@ ambiente virtual VENV e que implementa um pequeno algoritmo que executa uma fun�
 ## FERRAMENTAS UTILIZADAS
 * Linguagem de programação Python.
 * Ambiente virtual VENV.
+* Git/GitHub
 * Visual studio code.
 * Windows 10.
 
 ## MODO DE UTILIZAR
-* 
+* Clonar repositório.
+* No diretório 'python-venv-schedule', executar '''python -m venv venv''' para instalar o ambiente virtual.
+* Executar '''pip install -r requirements.txt''' para instalar as dependências.
+* Executar, caso esteja no Windows, '''venv\Scripts\activate''' para iniciar o ambiente. Caso Linux ou MacOS, '''source venv/bin/activate'''.
+* Para sair do ambiente virtual '''deactivate'''.
+
